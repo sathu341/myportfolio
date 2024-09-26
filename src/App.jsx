@@ -25,6 +25,14 @@ function App() {
               <span>info</span>
               </div>
             </section>
+            <section className='section'>
+              <div className="leftside">
+                <span>My Work</span>
+              </div>
+              <div className="rightside">
+              <span>info</span>
+              </div>
+            </section>
      </div>
     
     </>
