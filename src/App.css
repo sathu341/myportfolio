@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 body{
-  background-image:url('./assets/images/rsz_rithikactor.jpg');
+  background-image:url('./assets/images/rithikactor.jpg');
   background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
+  background-size:100% 100%;
+ 
   background-attachment: fixed;
-  height:100vh;
+
 }
 .main{
   width:100%;
@@ -26,6 +26,10 @@ body{
   display:flex;
   justify-content: space-evenly;
   padding:20px;
+  position:fixed;
+  z-index:999;
+  width:100%;
+
 }
 .nav >div a{
   text-decoration:none;
