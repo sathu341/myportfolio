@@ -49,3 +49,6 @@ body{
     margin-top: 120px;
     color: white;
 }
+.leftside > a {
+  text-decoration: none;
+}
