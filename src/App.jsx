@@ -2,14 +2,21 @@ import { useState,useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Aboutme from './aboutme'
-import Education from './education'
-import MyWork from './mywork'
-import ProductList from './productlist'
-import Usememoex from './usemomex'
+import Usecallbackex from './usecallbackex'
+// import Aboutme from './aboutme'
+// import Education from './education'
+// import MyWork from './mywork'
 
 function App() {
- 
+//  const [count,setCount]=useState(0)
+//  const [number,setNumber]=useState(0)
+//  useEffect(()=>{
+//   console.log("count increament....")
+//  },[count])
+//  useEffect(()=>{
+//   console.log("useEffect...Number.......")
+//  },[number])
+
   return (
     <>
      {/* <div className='main'>
@@ -44,7 +51,6 @@ function App() {
                }}>INC number</button>
                {number}
               </div>
-              <ProductList/>
             </section>
             <section className='section' id="aboutme">
               <div>
@@ -66,7 +72,7 @@ function App() {
             </section>
           
      </div> */}
-     <Usememoex/>
+     <Usecallbackex/>
     
     </>
   )

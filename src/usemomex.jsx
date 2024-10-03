@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useMemo,useEffect } from "react";
 function Usememoex(){
     const [number,setNumber]=useState(0);
     const[count,setCount]=useState(0)
@@ -10,10 +10,13 @@ function Usememoex(){
         setNumber(e.target.value)
     }
 
-   const sqaureResult=squareNumber(number)
-
+   const sqaureResult=useMemo(()=>{
+    return squareNumber(number)
+   },[number])
+  //const sqaureResult=squareNumber(number)
     function squareNumber(number){
         console.log("square");
+       
         return Math.pow(Number(number),2)
     }
     return(
